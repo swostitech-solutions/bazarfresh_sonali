@@ -45,6 +45,7 @@ public class RegistrationTest extends BaseTest {
 		registrationPage.clickOnAndCheckBox();
 		registrationPage.clickOnContinue();
 		Thread.sleep(10000);
+		// this is registration test
 
 	}
 
