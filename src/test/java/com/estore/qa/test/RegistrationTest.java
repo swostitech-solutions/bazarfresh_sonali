@@ -34,6 +34,7 @@ public class RegistrationTest extends BaseTest {
 		String telephone = reader.getCellData(moduleName, "Telephone", 2);
 		String password = reader.getCellData(moduleName, "Password", 2);
 		String confirmpassword = reader.getCellData(moduleName, "ConfirmPassword", 2);
+
 		registrationPage.clickOnSignUp();
 		registrationPage.EnterFirstName(firstName);
 		registrationPage.EnterLastName(lastName);
