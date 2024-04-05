@@ -32,6 +32,7 @@ public class LoginTest extends BaseTest{
 		  loginPage.loginOut();
 		  Thread.sleep(ThreadSleepTime);
 		  // This is validation for Log out functionality.
+		  // This is developed by sonali
 	  }
 	  
 	  
