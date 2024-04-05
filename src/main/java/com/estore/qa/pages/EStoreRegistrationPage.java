@@ -103,9 +103,6 @@ public class EStoreRegistrationPage extends BaseTest {
 		}
 	
 	
-	
-	
-	
 }
 
 	
