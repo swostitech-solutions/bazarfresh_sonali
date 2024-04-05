@@ -3,11 +3,11 @@ package com.estore.qa.test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.bazarfresh.qa.Base.BaseTest;
+
 import com.estore.qa.pages.EStoreAddToCartPage;
 import com.estore.qa.pages.EStoreRegistrationPage;
 
-public class AddToCartTest  extends BaseTest {
+public class AddToCartTest  extends com.estore.qa.basetest.BaseTest {
 	
 	EStoreAddToCartPage addtocartpage;
 	@BeforeMethod
