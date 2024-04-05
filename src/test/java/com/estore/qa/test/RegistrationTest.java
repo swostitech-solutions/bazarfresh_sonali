@@ -55,7 +55,9 @@ public class RegistrationTest extends BaseTest{
 	{
 		driver.quit();
 	}
-	
+	public void tearup() {
+		driver.quit();
+	}
 	
 	
 }
